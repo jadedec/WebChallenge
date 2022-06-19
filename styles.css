@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Calibre, 'Trebuchet MS', sans-serif;
 }
 
 *::selection {
@@ -18,13 +18,14 @@ body {
 header {
     text-align: center;
     height: auto;
+    max-width: 460px;
     margin: 2em 0em 2em 0em;
     padding: 40px;
 
 }
 
 header h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(0, 162, 255);
 }
 
@@ -41,4 +42,29 @@ header h4 {
     font-size: larger;
     color: rgb(12, 7, 70);
     font-weight: normal;
+}
+
+main {
+    text-align: center;
+    color: rgb(12, 7, 70);
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.item {
+    border-bottom: 1px;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 500px;
+}
+
+img.imageLeft {
+    float: left;
+}
+
+img.imageRight {
+    float: right;
 }
