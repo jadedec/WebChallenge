@@ -25,20 +25,24 @@ header {
 }
 
 header h1 {
+    margin: 1em 0em 1em 0em;
     font-size: 40px;
     color: rgb(0, 162, 255);
 }
 
 header h2 {
+    margin: 1em 0em 1em 0em;
     font-size: 25px;
     color: rgb(12, 7, 70);
 }
 
 header h3 {
+    margin: 1em 0em 1em 0em;
     color: rgb(0, 162, 255);
 }
 
 header h4 {
+    margin: 1em 0em 1em 0em;
     font-size: larger;
     color: rgb(12, 7, 70);
     font-weight: normal;
@@ -57,14 +61,38 @@ h5 {
     border-bottom: 1px;
     clear: both;
     overflow: hidden;
-    padding: 20px 0;
+    padding: 1px 0;
     width: 500px;
 }
 
 img.imageLeft {
     float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 img.imageRight {
     float: right;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+p.infoLeft {
+    float: left;
+    width: 200px;
+    height: 200px;
+    line-height: 30px;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+p.infoRight {
+    float: right;
+    width: 200px;
+    height: 200px;
+    line-height: 30px;
+    padding: 50px 20px;
+    overflow: hidden;
 }
